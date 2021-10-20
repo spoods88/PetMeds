@@ -13,5 +13,22 @@ namespace PetMeds
         {
 
         }
+
+        protected void btnVet_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Vet.aspx");
+        }
+
+        protected void btnDispensing_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Dispensing.aspx");
+
+        }
+
+        protected void btnService_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Service.aspx");
+
+        }
     }
 }

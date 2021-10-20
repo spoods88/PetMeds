@@ -20,9 +20,9 @@
             <div class="col-lg-5 mx-auto" style="align-content: center;">
                 <div class="p-3 border bg-light" style="text-align: center">
                     <h2 style="text-align: center">Please choose your department: </h2>
-                    <asp:Button ID ="btnVet" Text="Vet" runat="server" CssClass="btn-group badge-dark align-self-center"/><br /><br />
-                    <asp:Button ID ="btnDispensing" Text="Dispending Dept." runat="server" CssClass="btn-group badge-dark align-self-center"/><br /><br />
-                    <asp:Button ID ="btnService" Text="Service Rep." runat="server" CssClass="btn-group badge-dark align-self-center align-items-center"/><br />
+                    <asp:Button ID ="btnVet" Text="Vet" runat="server" CssClass="btn-group badge-dark align-self-center" OnClick="btnVet_Click"/><br /><br />
+                    <asp:Button ID ="btnDispensing" Text="Dispending Dept." runat="server" CssClass="btn-group badge-dark align-self-center" OnClick="btnDispensing_Click"/><br /><br />
+                    <asp:Button ID ="btnService" Text="Service Rep." runat="server" CssClass="btn-group badge-dark align-self-center align-items-center" OnClick="btnService_Click"/><br />
 
                 </div>
             </div>
